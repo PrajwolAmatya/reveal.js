@@ -8,16 +8,37 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.slides ul {
+				float: left;
+				/* font-size: 32px; */
+			}
+			.slides ol {
+				float: left;
+				/* font-size: 32px; */
+			}
+			.slides h1 {
+				font-size: 48px;
+			}
+			.slides {
+				font-size: 22px;
+			}
+			.code-wrapper {
+				width: 100% !important;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section
+                    data-markdown="makefile.md"
+                    data-separator="\r?\n---\r?\n"
+                ></section>
 			</div>
 		</div>
 
